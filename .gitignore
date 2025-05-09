@@ -1,0 +1,14 @@
+# root
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+.vscode/
+
+# client
+client/node_modules/
+client/build/
+
+# server
+server/node_modules/
