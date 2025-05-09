@@ -4,6 +4,11 @@ const http = require('http');       // Node core HTTP server
 const cors = require('cors');       // Enable CORS for cross-origin requests
 const { Server } = require('socket.io'); // WebSocket server
 
+"scripts": {
+  "start": "node server.js"
+}
+
+
 // Initialize express app and middleware
 const app = express();
 app.use(cors());             // Allow cross-origin access (needed for frontend)
