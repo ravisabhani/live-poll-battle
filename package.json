@@ -1,26 +1,9 @@
 {
   "name": "live-poll-battle",
   "version": "1.0.0",
-  "description": "live poll battle assignment",
-  "main": "index.js",
-  "dependencies": {
-    "chart.js": "^4.4.9",
-    "react": "^19.1.0",
-    "react-chartjs-2": "^5.3.0",
-    "react-countdown-circle-timer": "^3.2.1"
-  },
-  "devDependencies": {},
+  "description": "Root package for deployment redirection",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo 'No build in root, build happens in client/'"
   },
-  "author": "ravi",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ravisabhani/live-poll-battle.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ravisabhani/live-poll-battle/issues"
-  },
-  "homepage": "https://github.com/ravisabhani/live-poll-battle#readme"
+  "license": "ISC"
 }
